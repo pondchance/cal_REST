@@ -20,7 +20,7 @@ var num = app.get('num');
        var obj = {
            "KB": x,
            
-           "result of KB to TB": x/1073741824
+           "result of KB to TB": x*Math.pow(10, -9)
        }
      res.json(obj); 
     });
